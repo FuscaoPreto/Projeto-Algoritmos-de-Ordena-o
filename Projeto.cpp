@@ -658,7 +658,7 @@ int main()
     heapSort(copia, comparacoes, trocas);
     end = chrono::high_resolution_clock::now();
     duration = end - start;
-    cout << "Heap Sort 10^3 Melhor: " << duration.count() << " ms" << endl;
+    cout << "Heap Sort 10^3 Medio: " << duration.count() << " ms" << endl;
     cout << "Trocas: " << trocas << "	Comparações: " << comparacoes << endl;
     comparacoes = 0;
     trocas = 0;
@@ -668,7 +668,7 @@ int main()
     heapSort(copia, comparacoes, trocas);
     end = chrono::high_resolution_clock::now();
     duration = end - start;
-    cout << "Heap Sort 10^4 Melhor: " << duration.count() << " ms" << endl;
+    cout << "Heap Sort 10^4 Medio: " << duration.count() << " ms" << endl;
     cout << "Trocas: " << trocas << "	Comparações: " << comparacoes << endl;
     comparacoes = 0;
     trocas = 0;
@@ -678,7 +678,7 @@ int main()
     heapSort(copia, comparacoes, trocas);
     end = chrono::high_resolution_clock::now();
     duration = end - start;
-    cout << "Heap Sort 10^5 Melhor: " << duration.count() << " ms" << endl;
+    cout << "Heap Sort 10^5 Medio: " << duration.count() << " ms" << endl;
     cout << "Trocas: " << trocas << "	Comparações: " << comparacoes << endl;
     comparacoes = 0;
     trocas = 0;
@@ -864,7 +864,7 @@ int main()
     heapSort(copia, comparacoes, trocas);
     end = chrono::high_resolution_clock::now();
     duration = end - start;
-    cout << "Heap Sort 10^3 Melhor: " << duration.count() << " ms" << endl;
+    cout << "Heap Sort 10^3 Pior: " << duration.count() << " ms" << endl;
     cout << "Trocas: " << trocas << "	Comparações: " << comparacoes << endl;
     comparacoes = 0;
     trocas = 0;
@@ -874,7 +874,7 @@ int main()
     heapSort(copia, comparacoes, trocas);
     end = chrono::high_resolution_clock::now();
     duration = end - start;
-    cout << "Heap Sort 10^4 Melhor: " << duration.count() << " ms" << endl;
+    cout << "Heap Sort 10^4 Pior: " << duration.count() << " ms" << endl;
     cout << "Trocas: " << trocas << "	Comparações: " << comparacoes << endl;
     comparacoes = 0;
     trocas = 0;
@@ -884,7 +884,7 @@ int main()
     heapSort(copia, comparacoes, trocas);
     end = chrono::high_resolution_clock::now();
     duration = end - start;
-    cout << "Heap Sort 10^5 Melhor: " << duration.count() << " ms" << endl;
+    cout << "Heap Sort 10^5 Pior: " << duration.count() << " ms" << endl;
     cout << "Trocas: " << trocas << "	Comparações: " << comparacoes << endl;
     comparacoes = 0;
     trocas = 0;
